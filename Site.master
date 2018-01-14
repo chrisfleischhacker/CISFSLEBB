@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>CISF SLEBB Management</title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"/>
+</head>
+<body>
+    <form id="Form" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <asp:ContentPlaceHolder ID="PageTitle" runat="server"/>
+            </div>
+            <div class="loginDisplay">
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" RenderingMode="List" >
+                    <Items>
+                        <asp:MenuItem NavigateUrl="https://cisfhome.peterson.af.mil" Text="CISF Home"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <asp:Label ID="lblMessage" runat="server" Text=""></asp:Label>        
+    </div>
+    </form>
+</body>
+</html>

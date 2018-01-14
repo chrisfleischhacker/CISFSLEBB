@@ -1,0 +1,311 @@
+﻿
+body {
+	font:.80em "helvetica neue","lucida grande","segoe ui",arial,helvetica,verdana,sans-serif;
+	background:#b6b7bc;
+	color:#696969
+}
+
+body,.header,.header h1,div.menu ul {
+	margin:0
+}
+
+body,.header,div.menu ul {
+	padding:0
+}
+
+a:visited,a:link,h3,h4 {
+	color:#4b6c9e
+}
+
+a:hover {
+	color:#1d60ff
+}
+
+a:hover,div.menu ul li a:visited,div.menu ul li a,div.menu ul li a:hover,div.menu ul li a:active {
+	text-decoration:none
+}
+
+a:active {
+	color:#034af3
+}
+
+p {
+	margin-bottom:10px;
+	line-height:1.6em;
+	color:#696969;
+}
+
+h6,h5,h4,h3,h2,h1,h2 {
+	font-size:1.5em
+}
+
+h6,h5,h4,h3,h2,h1 {
+    color:#696969;
+	font-variant:small-caps;
+	text-transform:none;
+	font-weight:200
+}
+
+h6,h5,h4,h3,h2,h1,h1 {
+	margin-bottom:0
+}
+
+h1 {
+	font-size:1.6em;
+	padding-bottom:0
+}
+
+h2,legend {
+	font-weight:600
+}
+
+h3,.failureNotification {
+	font-size:1.2em
+}
+
+h3,h4 {
+	font-weight:500
+}
+
+h4,legend {
+	font-size:1.1em
+}
+
+h6,h5 {
+	font-size:1em
+}
+
+.leftColumn > h2,.leftColumn > h1,.rightColumn > h2,.rightColumn > h1 {
+	margin-top:0
+}
+
+.page {
+	background:#fff;
+	width:960px;
+	margin:20px auto 0 auto;
+	border:1px solid #496077
+}
+
+.header {
+	position:relative;
+	background:#4b6c9e
+}
+
+.header,div.hideSkiplink {
+	width:100%
+}
+
+.header h1 {
+	font-weight:700;
+	padding:0 0 0 20px;
+	color:#f9f9f9;
+	border:none;
+	line-height:2em;
+	font-size:2em
+}
+
+.main {
+	padding: 4px;
+	min-height:420px;
+}
+
+.main,.leftCol {
+}
+
+.leftCol, leftCol td {
+	padding:6px 0;
+	width:200px;
+	min-height:200px;
+}
+
+.footer {
+	color:#4e5766;
+	padding:8px 0 0 0;
+	margin:0 auto;
+	text-align:center;
+	line-height:normal
+}
+
+div.hideSkiplink {
+	background:#3a4f63
+}
+
+div.menu {
+	padding:4px 0 4px 8px
+}
+
+div.menu ul {
+	list-style:none
+}
+
+div.menu ul,.title {
+	width:auto
+}
+
+div.menu ul li a:visited,div.menu ul li a,div.menu ul li a:active {
+	background:#465c71
+}
+
+div.menu ul li a:visited,div.menu ul li a {
+	border:1px #4e667d solid;
+	color:#dde4ec;
+	line-height:1.35em;
+	padding:4px 20px;
+	white-space:nowrap
+}
+
+div.menu ul li a:visited,div.menu ul li a,fieldset.changePassword label,fieldset.register label,fieldset.login label,.title {
+	display:block
+}
+
+div.menu ul li a:hover {
+	background:#bfcbd6;
+	color:#465c71
+}
+
+div.menu ul li a:active {
+	color:#cfdbe6
+}
+
+fieldset {
+	margin:1em 0;
+	padding:1em
+}
+
+fieldset,input.textEntry,input.passwordEntry {
+	border:1px solid #ccc
+}
+
+fieldset p {
+	margin:2px 12px 10px 10px
+}
+
+fieldset label.inline {
+	display:inline
+}
+
+legend {
+	padding:2px 4px 8px 4px
+}
+
+input.textEntry,input.passwordEntry {
+	width:320px
+}
+
+div.accountInfo {
+	width:42%
+}
+
+.clear {
+	clear:both
+}
+
+.title,#LeftContent,#i1,#SurveyItem8,#SurveyItem7,#SurveyItem6,#SurveyItem5,#SurveyItem4,#SurveyItem3,#SurveyItem2,#SurveyItem1,#ComputerType,#RefreshCache,#Find,#PersonnelType,#Active,#OfficeSymbols,#Organizations {
+	float:left
+}
+
+.title,.rbl {
+	text-align:left
+}
+
+.failureNotification {
+	color:Red
+}
+
+.bold {
+	font-weight:bold
+}
+
+.submitButton {
+	text-align:right;
+	padding-right:10px
+}
+
+#LeftContent,#RightContent {
+	width:45%
+}
+
+#LeftContent,#RightContent,#i1,#SurveyItem8,#SurveyItem7,#SurveyItem6,#SurveyItem5,#SurveyItem4,#SurveyItem3,#SurveyItem2,#SurveyItem1,.rbl,#layer1 {
+	padding:10px
+}
+
+#RightContent,#close {
+	float:right
+}
+
+.error {
+	color:Maroon
+}
+.noerror {
+	color:inherit;
+}
+
+#i1,#SurveyItem8,#SurveyItem7,#SurveyItem6,#SurveyItem5,#SurveyItem4,#SurveyItem3,#SurveyItem2,#SurveyItem1 {
+	margin:10px;
+	border:1px solid #465c71
+}
+
+.rbl {
+	border:1px solid silver
+}
+
+body {
+	font:10pt times new roman
+}
+
+.row {
+	background:#dfdfdf
+}
+
+.alternateRow {
+	background:#efefef
+}
+
+.ddlText,input {
+	font-family:Times New Roman
+}
+
+.buttonText {
+	font:.8em times new roman
+}
+
+.buttonTextBold {
+	font:.8em times new roman bold;
+	color:Blue;
+	padding-bottom:2px
+}
+
+input .buttonText:active,input .buttonText:active {
+	font:.11em times new roman
+}
+
+#ComputerType,#RefreshCache,#Find,#PersonnelType,#Active,#OfficeSymbols,#Organizations {
+	padding-right:20px
+}
+
+#layer1 {
+	background:#ccc;
+	position:absolute;
+	visibility:hidden;
+	width:400px;
+	height:300px;
+	left:20px;
+	top:300px;
+	border:1px solid #000
+}
+.dropdownlist
+{	background:#f8f8f8}
+.altdropdownlist
+{	background:#fff}
+
+.ticketbordercolumn, .ticketbordercolumn td, .ticketbordercolumn p 
+{
+    background-color: #f8f8f8;
+    color: Black;
+}
+.pnlSLEBBs td
+{
+    padding: 4px;
+}
+
+
